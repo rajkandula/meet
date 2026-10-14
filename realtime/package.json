@@ -1,0 +1,13 @@
+{
+  "name": "meet-realtime",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "WebRTC signaling and room presence for Meet, deployable as its own Node service.",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.21.1"
+  }
+}
